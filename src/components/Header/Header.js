@@ -3,13 +3,10 @@ import "./Header.scss"
 const Header = () => {
 
     return (
-
-        <div className="container header-div">
-
-            <p className="header-p"> ¡Hola!, soy el footer, creando este componente desde la branch "rama-lucas" </p>
-
+        <div>
+            {/* HOLA CLAUDIO, ESTE ESPACIO ES PARA QUE CREES EL FOOTER Y PARA EL ESTILO POR FAVOR, USA EL SCSS IMPORTADO DE ARRIBA */}
+            <p>Hola, soy el header</p>    
         </div>
-
     )
 }
 
