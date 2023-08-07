@@ -1,0 +1,73 @@
+.section-marcas-mobile {
+  .title-marcas-mobile {
+    font-family: "Yaldevi", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .contenedor-marcas-mobile {
+    background-color: rgba(255, 255, 255, 0.349);
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    overflow-x: auto;
+    .marcas-mobile-map {
+      // -----------------en duda-----------------------------------
+      // margin-top: 14px;
+      // margin-bottom: 14px;
+      // -----------------en duda-----------------------------------
+      .marcas-mobile-map-img {
+        margin-left: 14px;
+        margin-right: 14px;
+        margin-left: 14px;
+        margin-right: 14px;
+        img {
+          width: 60px;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 359px) {
+  .section-marcas-mobile {
+    .title-marcas-mobile {
+      font-size: 21.36px;
+    }
+    .contenedor-marcas-mobile {
+      .marcas-mobile-map {
+        .marcas-mobile-map-img {
+          margin-left: 12.46px;
+          margin-right: 12.46px;
+          img {
+            width: 53.4px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 374px) and (max-width: 380px) {
+  .section-marcas-mobile {
+    .title-marcas-mobile {
+      font-size: 25.008px;
+    }
+    .contenedor-marcas-mobile {
+      .marcas-mobile-map {
+        .marcas-mobile-map-img {
+          margin-left: 14.588px;
+          margin-right: 14.588px;
+          img {
+            width: 62.52px;
+          }
+        }
+      }
+    }
+  }
+}

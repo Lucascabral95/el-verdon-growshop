@@ -1,16 +1,16 @@
 import { Routes, Route, Navigate } from "react-router-dom"
-import Header from "../components/Header/Header.js"
-import Footer from "../components/Footer/Footer.js"
+// import Main from "../components/Main/Main.js"
+import Body from "../components/Body.js"
 
 const PublicRoutes = () => {
 
     return (
         <>
-            <Header />
-               <Routes>
-                  <Route path="*" element={<Navigate to={"/"} />} />
-               </Routes>
-            <Footer />
+            <Routes>
+                <Route path="*" element={<Navigate to={"/"} />} />
+                {/* <Route path="/" element={<Main />} /> */}
+                <Route path="/" element={<Body />} />
+            </Routes>
         </>
     )
 }

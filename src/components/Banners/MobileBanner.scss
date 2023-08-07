@@ -1,0 +1,42 @@
+.mobile-banner {
+  background-image: url("../../../public/img/verdon-pajarito-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+
+  .mobile-banner-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 105px;
+    position: relative;
+    top: 49%;
+    img {
+      height: 324px;
+      width: 100%;
+    }
+  }
+
+  .banner-mobile-eslogan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    top: 60%;
+    .banner-mobile-eslogan-texto {
+      width: 78%;
+      color: white;
+      text-align: center;
+      font-family: 'Yaldevi', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+}
+
+@media (min-width: px) and (max-width: px ) {
+  
+}

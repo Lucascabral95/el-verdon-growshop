@@ -6,9 +6,7 @@ const AppRouter = () => {
     return (
         <div>
             <BrowserRouter>
-
                 <PublicRoutes />
-
             </BrowserRouter>
 
         </div>

@@ -1,0 +1,148 @@
+.banner-contenedor {
+  background-image: url("../../../public/img/verdon-pajarito-uno.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 834px;
+  display: flex;
+
+  .banner-eslogan {
+    width: 50%;
+    height: 834px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 4%;
+    p {
+      width: 500px;
+      color: white;
+      font-family: "Yaldevi", sans-serif;
+      font-size: 39.9px;
+      font-weight: 600;
+      margin: 0;
+    }
+  }
+
+  .banner-img {
+    width: 50%;
+    height: 834px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 100%;
+    }
+  }
+
+  .banner-mobile-en-desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 1444px) and (max-width: 1919px) {
+  .banner-contenedor {
+    height: 627.16px;
+
+    .banner-eslogan {
+      height: 627.16px;
+      p {
+        width: 376px;
+        font-size: 30px;
+      }
+    }
+
+    .banner-img {
+      height: 627.16px;
+    }
+  }
+}
+
+@media (min-width: 1180px) and (max-width: 1439px) {
+  .banner-contenedor {
+    height: 513.01px;
+
+    .banner-eslogan {
+      height: 513.01px;
+      p {
+        width: 307.56px;
+        font-size: 24.54px;
+      }
+    }
+
+    .banner-img {
+      height: 513.01px;
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1179px) {
+  .banner-contenedor {
+    height: 430.92px;
+
+    .banner-eslogan {
+      height: 430.92px;
+      p {
+        width: 258.35px;
+        font-size: 20.61px;
+      }
+    }
+
+    .banner-img {
+      height: 430.92px;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner-contenedor {
+    height: 333.96px;
+
+    .banner-eslogan {
+      height: 333.96px;
+      p {
+        width: 200.22px;
+        font-size: 18px;
+      }
+    }
+
+    .banner-img {
+      height: 333.96px;
+    }
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .banner-contenedor {
+    height: 208.725px;
+
+    .banner-eslogan {
+      height: 208.725px;
+      p {
+        width: 126.385px;
+        font-size: 11.25px;
+      }
+    }
+
+    .banner-img {
+      height: 208.725px;
+    }
+  }
+}
+
+@media (max-width: 479px) {
+  .banner-contenedor {
+    height: 500px;
+    .banner-mobile-en-desktop {
+      display: block;
+    }
+
+    .banner-eslogan {
+      display: none;
+    }
+
+    .banner-img {
+      display: none;
+    }
+  }
+}

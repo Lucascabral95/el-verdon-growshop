@@ -1,0 +1,52 @@
+[
+    {
+        "image": "/img/verdon-sistema-cultivo.png",
+        "imageSecondary": "/img/verdon-sistemas-green.jpg",
+        "title": "Sistemas de Cultivo",
+        "titleTwin": "Hidropónicos",
+        "description": "Nueva forma de cultivar con DWC completos, clonadores, canastas y sistemas de oxigenación.",
+        "textoAlternativo": "Sistemas de Cultivo",
+        "mensajeWhatsApp": "¡Hola! Usted desea adquirir Sistemas de Cultivo Hidropónicos, ¿verdad?"
+    },
+    {
+        "image": "/img/verdon-insumos.jpg",
+        "imageSecondary": "/img/verdon-insumos-verde.jpg",
+        "title": "Insumos de Hidroponía",
+        "description": "Todo lo que necesitas para poner en marcha tu sistema (Soluciones nutritivas, reguladores de pH, sustratos inertes, controladores de plagas y más)",
+        "textoAlternativo": "Insumos de Hidroponía",
+        "mensajeWhatsApp": "¡Hola! Usted desea adquirir Insumos de Hidroponía, ¿verdad?"
+    },
+    {
+        "image": "/img/verdon-herramientas.jpg",
+        "imageSecondary": "/img/verdon-herramientas-verde.jpg",
+        "title": "Herramientas",
+        "description": "Instrumentos para facilitarte la vida. (Medidores de pH, medidores de EC y ppm, termómetros, redes, y más)",
+        "textoAlternativo": "Herramientas",
+        "mensajeWhatsApp": "¡Hola! Usted desea adquirir Herramientas, ¿verdad?"
+    },
+    {
+        "image": "/img/verdon-cultivo.jpg",
+        "imageSecondary": "/img/verdon-cultivo-verde.jpg",
+        "title": "Cultivo en tierra",
+        "description": "Si aún elegís tierra, tenemos lo tuyo. (Macetas de todo tipom sustratos, fertilizantes y más)",
+        "textoAlternativo": "Cultivo en tierra",
+        "mensajeWhatsApp": "¡Hola! Usted desea adquirir Cultivo en tierra, ¿verdad?"
+    },
+    {
+        "image": "/img/verdon-parafernalia.jpg",
+        "imageSecondary": "/img/verdon-parafernalia-verde.jpg",
+        "title": "Parafernalia",
+        "description": "Lo mejor para la hora mágica. (Pipas, sedas, filtros, grinderes, ropa, encendedores, y más)",
+        "textoAlternativo": "Parafernalia",
+        "mensajeWhatsApp": "¡Hola! Usted desea adquirir Parafernalia, ¿verdad?"
+    },
+    {
+        "image": "/img/verdon-indoor.jpg",
+        "imageSecondary": "/img/verdon-indoor-verde.jpg",
+        "title": "Indoor",
+        "description": "No hay sol, no hay problema. Todo lo necesario para un buen indoor. (Carpas, luces, ventiladores, temporadores, filtros)",
+        "textoAlternativo": "Indoor",
+        "mensajeWhatsApp": "¡Hola! Usted desea adquirir Indoors, ¿verdad?"
+    }
+]
+
