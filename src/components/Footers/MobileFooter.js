@@ -7,7 +7,7 @@ const MobileFooter = () => {
         <div className="section-mobile-footer">
 
             <div className="img-mobile-footer">
-                <img src="/img/verdon-hojita-uno.png" alt="Hojita" />
+                <img src="/img/verdon-hojita-uno.webp" alt="Hojita" />
             </div>
 
             <div className="mobile-footer-texto-boton-logo">
@@ -19,12 +19,12 @@ const MobileFooter = () => {
                     <a href="#">WhatsApp</a>
                 </div>
                 <div className="mobile-footer-img-tres">
-                    <img src="/img/verdon-logo-verde.png" alt="Logo del Verdón Growshop" />
+                    <img src="/img/verdon-logo-verde.webp" alt="Logo del Verdón Growshop" />
                 </div>
             </div>
 
             <div className="img-mobile-footer">
-                <img src="/img/verdon-hojita-dos.png" alt="Hojita" />
+                <img src="/img/verdon-hojita-dos.webp" alt="Hojita" />
             </div>
 
         </div>

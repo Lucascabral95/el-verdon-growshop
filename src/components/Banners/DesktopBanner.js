@@ -10,7 +10,7 @@ const Banner = () => {
                 <p> Ofrecemos equipos e insumos de alta calidad para el cultivo de cannabis especializado en el método de hidroponía. </p>
             </div>
             <div className="banner-img">
-                <img src="/img/verdon-logo-blanco-dos.png" alt="Logo del verdón Growshop" />
+                <img src="/img/verdon-logo-blanco-dos.webp" alt="Logo del verdón Growshop" />
             </div>
             <div className="banner-mobile-en-desktop">
                 <MobileBanner />

@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="section-footer">
 
             <div className="footer-contenedor">
-                <img src="/img/verdon-hojita-uno.png" alt="Hojita" />
+                <img src="/img/verdon-hojita-uno.webp" alt="Hojita" />
                 <div className="contenedor-footer-info">
                     <div className="contenedor-footer-info-texto">
                         <p>¿Necesitás más información?</p>
@@ -24,10 +24,10 @@ const Footer = () => {
                         <a> WhatsApp </a>
                     </a>
                     <div className="img-logo-footer">
-                        <img src="/img/verdon-logo-verde.png" alt="Logo Del Verdón Growshop" />
+                        <img src="/img/verdon-logo-verde.webp" alt="Logo Del Verdón Growshop" />
                     </div>
                 </div>
-                <img src="/img/verdon-hojita-dos.png" alt="Hojita" />
+                <img src="/img/verdon-hojita-dos.webp" alt="Hojita" />
             </div>
 
             <div className="display-mobile-footer">
