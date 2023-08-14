@@ -4,7 +4,7 @@ import datos from "../../datos.json"
 const CardSecondary = () => {
 
     return (
-        <section className="card-secondary container">
+        <section id="productos" className="card-secondary container">
 
             <h2 className="card-secondary-title"> Nuestros productos</h2>
 

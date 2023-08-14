@@ -11,12 +11,12 @@ const MobileFooter = () => {
             </div>
 
             <div className="mobile-footer-texto-boton-logo">
-                <div className="mobile-footer-text">
+                <div id="contactanos" className="mobile-footer-text">
                     <p>¿Necesitás más información?</p>
                     <p>¡Comunicate con un vendedor!</p>
                 </div>
                 <div className="boton-wsp-mobile">
-                    <a href="#">WhatsApp</a>
+                    <a href="https://wa.me/send?text=%C2%A1Hola!,%20que%20producto%20desea%20adquirir?&phone=543515445372">WhatsApp</a>
                 </div>
                 <div className="mobile-footer-img-tres">
                     <img src="/img/verdon-logo-verde.webp" alt="Logo del Verdón Growshop" />

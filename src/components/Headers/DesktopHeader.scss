@@ -48,7 +48,12 @@
 
             a {
               text-decoration: none;
-              color: white;
+              color: #DEE9DA;
+              transition: color 0.4s ease;
+
+              &:hover {
+                color: #fff;
+              }
             }
           }
 
@@ -71,12 +76,22 @@
         width: 55%;
         height: 55%;
         cursor: pointer;
+        transition: fill 0.4s ease;
+
+        &:hover {
+          fill: #fff;
+        }
       }
 
       .header-reactIcon-dos {
         width: 43%;
         height: 43%;
         cursor: pointer;
+        transition: fill 0.4s ease;
+
+        &:hover {
+          fill: #fff;
+        }
       }
     }
   }

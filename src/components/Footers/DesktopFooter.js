@@ -1,6 +1,6 @@
 import "./DesktopFooter.scss"
-import { useContext } from "react"
-import { AppContext } from "../../Context/AppContext.js"
+// import { useContext } from "react"
+// import { AppContext } from "../../Context/AppContext.js"
 import MobileFooter from "./MobileFooter.js"
 
 const Footer = () => {
@@ -11,12 +11,13 @@ const Footer = () => {
             <div className="footer-contenedor">
                 <img src="/img/verdon-hojita-uno.webp" alt="Hojita" />
                 <div className="contenedor-footer-info">
-                    <div className="contenedor-footer-info-texto">
+                    <div id="contactanos" className="contenedor-footer-info-texto">
                         <p>¿Necesitás más información?</p>
                         <p> ¡Comunicate con un vendedor!</p>
                     </div>
                     <a
                         target="_blank"
+                        rel="noreferrer"
                         title="Contactate con un vendedor."
                         href="https://wa.me/send?text=%C2%A1Hola!,%20que%20producto%20desea%20adquirir?&phone=543515445372"
                         className="boton-wsp"

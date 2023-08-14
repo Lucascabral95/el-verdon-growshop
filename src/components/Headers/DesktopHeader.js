@@ -1,5 +1,4 @@
 import "./DesktopHeader.scss"
-import { Link } from 'react-router-dom';
 import { BsFacebook } from "react-icons/bs"
 import { AiOutlineInstagram } from "react-icons/ai"
 import MobileHeader from "../Headers/MobileHeader.js"
@@ -25,10 +24,10 @@ const Header = () => {
                         <nav>
                             <ul>
                                 <li>
-                                    <a href="#"> PRODUCTOS </a>
+                                    <a href="#productos"> PRODUCTOS </a>
                                 </li>
                                 <li>
-                                    <a href="#"> CONTACTANOS </a>
+                                    <a href="#contactanos"> CONTACTANOS </a>
                                 </li>
                             </ul>
                         </nav>
@@ -36,8 +35,8 @@ const Header = () => {
                     <div className="header-contenedor-icons">
                         {/* <AiOutlineInstagram color="white" className="header-reactIcon" /> */}
                         {/* <BsFacebook color="white" className="header-reactIcon-dos" /> */}
-                        <AiOutlineInstagram onClick={redirectToInstagram} color="white" className="header-reactIcon" />
-                        <BsFacebook onClick={redirectToFacebook} color="white" className="header-reactIcon-dos" />
+                        <AiOutlineInstagram onClick={redirectToInstagram} color="#DEE9DA" className="header-reactIcon" />
+                        <BsFacebook onClick={redirectToFacebook} color="#DEE9DA" className="header-reactIcon-dos" />
                     </div>
                 </div>
             </div>

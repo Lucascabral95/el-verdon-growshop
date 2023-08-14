@@ -24,8 +24,8 @@ const MobileHeader = () => {
                     <nav>
                         <ul>
                             <li>
-                                <a href="#">  PRODUCTOS </a>
-                                <a href="#"> CONTACTANOS </a>
+                                <a href="#productos">  PRODUCTOS </a>
+                                <a href="#contactanos"> CONTACTANOS </a>
                             </li>
                         </ul>
                     </nav>
@@ -33,8 +33,8 @@ const MobileHeader = () => {
                 <div className="mobile-header-icons">
                     {/* <AiOutlineInstagram className="mobile-icons-header" />
                     <BsFacebook className="mobile-icons-header-dos" /> */}
-                    <AiOutlineInstagram onClick={redirectToInstagram} className="mobile-icons-header" />
-                    <BsFacebook onClick={redirectToFacebook} className="mobile-icons-header-dos" />
+                    <AiOutlineInstagram onClick={redirectToInstagram} color="#DEE9DA" className="mobile-icons-header" />
+                    <BsFacebook onClick={redirectToFacebook} color="#DEE9DA" className="mobile-icons-header-dos" />
                 </div>
             </div>
 

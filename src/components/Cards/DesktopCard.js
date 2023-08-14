@@ -6,7 +6,7 @@ import datos from "../../datos.json";
 const Cards = () => {
 
     return (
-        <section className="section-productos">
+        <section id="productos" className="section-productos">
             <h2 className="productos-title">Nuestros productos</h2>
 
             <div className="card-contenedor row">
