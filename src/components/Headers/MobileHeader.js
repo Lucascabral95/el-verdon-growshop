@@ -8,7 +8,7 @@ const MobileHeader = () => {
         <div className="section-mobile-header">
 
             <div className="img-mobile-header">
-                <img src="/img/verdon-logo-blanco-dos.webp" alt="Logo de Verdón Growshop" />
+                <img src="/img/logo.webp" alt="Logo de Verdón Growshop" />
             </div>
             <div className="mobile-header-categorias-icons">
                 <div className="categorias-header-mobile">

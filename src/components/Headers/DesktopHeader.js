@@ -8,7 +8,7 @@ const Header = () => {
         <>
             <div className="section-header">
                 <div className="header-contenedor-img">
-                    <img className="header-img" src="/img/verdon-logo-blanco-dos.webp" alt="Logo del Verdón Growshop" />
+                    <img className="header-img" src="/img/logo.webp" alt="Logo del Verdón Growshop" />
                 </div>
                 <div className="contenedor-categorias-icons">
                     <div className="header-contenedor-categorias">
