@@ -72,26 +72,24 @@
 
       .header-reactIcon {
         position: relative;
-        right: 33%;
+        right: 45%;
         width: 55%;
-        height: 55%;
+        height: 50%;
         cursor: pointer;
-        transition: fill 0.4s ease;
-
-        &:hover {
-          fill: #fff;
-        }
       }
 
       .header-reactIcon-dos {
         width: 43%;
-        height: 43%;
+        height: 50%;
         cursor: pointer;
-        transition: fill 0.4s ease;
+      }
 
-        &:hover {
-          fill: #fff;
-        }
+      a svg{
+        fill: #DEE9DA;
+        transition: fill 0.4s ease;
+      }
+      a svg:hover { 
+        fill: #fff;
       }
     }
   }

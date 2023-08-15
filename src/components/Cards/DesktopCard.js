@@ -26,7 +26,7 @@ const Cards = () => {
                                 <h4 className="card-body-title-dos"> {item.titleTwin} </h4>
                             </div>
                             <a
-                                target="_blank"
+                                target="_blank" rel="noreferrer"
                                 href={`https://wa.me/send?text=${encodeURIComponent(item.mensajeWhatsApp)}&phone=541122431910`}
                                 className="card-body-div-div"
                             >

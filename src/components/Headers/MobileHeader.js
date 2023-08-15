@@ -1,17 +1,8 @@
 import "./MobileHeader.scss"
-import { BsFacebook } from "react-icons/bs"
-import { AiOutlineInstagram } from "react-icons/ai"
+import { Instagram, Facebook } from "../Icons/Icons.js"
 
 
 const MobileHeader = () => {
-
-    const redirectToFacebook = () => {
-        window.open('https://www.facebook.com', '_blank');
-    };
-
-    const redirectToInstagram = () => {
-        window.open('https://www.instagram.com', '_blank');
-    };
 
     return (
         <div className="section-mobile-header">
@@ -31,8 +22,12 @@ const MobileHeader = () => {
                     </nav>
                 </div>
                 <div className="mobile-header-icons">
-                    <AiOutlineInstagram onClick={redirectToInstagram} color="#DEE9DA" className="mobile-icons-header" />
-                    <BsFacebook onClick={redirectToFacebook} color="#DEE9DA" className="mobile-icons-header-dos" />
+                    <a href="http://instagram.com" target="_blank" rel="noopener noreferrer" className="mobile-icons-header">
+                        <Instagram />
+                    </a>
+                    <a href="http://facebook.com" target="_blank" rel="noopener noreferrer" className="mobile-icons-header-dos">
+                        <Facebook />
+                    </a>
                 </div>
             </div>
 
