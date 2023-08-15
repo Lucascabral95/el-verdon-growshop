@@ -31,8 +31,6 @@ const MobileHeader = () => {
                     </nav>
                 </div>
                 <div className="mobile-header-icons">
-                    {/* <AiOutlineInstagram className="mobile-icons-header" />
-                    <BsFacebook className="mobile-icons-header-dos" /> */}
                     <AiOutlineInstagram onClick={redirectToInstagram} color="#DEE9DA" className="mobile-icons-header" />
                     <BsFacebook onClick={redirectToFacebook} color="#DEE9DA" className="mobile-icons-header-dos" />
                 </div>

@@ -33,8 +33,6 @@ const Header = () => {
                         </nav>
                     </div>
                     <div className="header-contenedor-icons">
-                        {/* <AiOutlineInstagram color="white" className="header-reactIcon" /> */}
-                        {/* <BsFacebook color="white" className="header-reactIcon-dos" /> */}
                         <AiOutlineInstagram onClick={redirectToInstagram} color="#DEE9DA" className="header-reactIcon" />
                         <BsFacebook onClick={redirectToFacebook} color="#DEE9DA" className="header-reactIcon-dos" />
                     </div>

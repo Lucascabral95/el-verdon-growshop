@@ -31,7 +31,6 @@ const CardSecondary = () => {
                             <div className="card-secondary-map-button">
                                 <div>
                                     <p>Comprar</p>
-                                    {/* <a target="_blank" className="card-body-div-p" href={`https://wa.me/send?text=${encodeURIComponent(item.mensajeWhatsApp)}&phone=541122431910`} > Comprar </a> */}
                                 </div>
                             </div>
                         </a>
@@ -45,9 +44,3 @@ const CardSecondary = () => {
 }
 
 export default CardSecondary
-                            // <div className="card-secondary-map-button">
-                            //     <div>
-                            //         {/* <p>Comprar</p> */}
-                            //         <a target="_blank" className="card-body-div-p" href={`https://wa.me/send?text=${encodeURIComponent(item.mensajeWhatsApp)}&phone=541122431910`} > Comprar </a>
-                            //     </div>
-                            // </div>

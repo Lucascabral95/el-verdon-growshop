@@ -1,6 +1,4 @@
 import "./DesktopFooter.scss"
-// import { useContext } from "react"
-// import { AppContext } from "../../Context/AppContext.js"
 import MobileFooter from "./MobileFooter.js"
 
 const Footer = () => {
@@ -40,6 +38,3 @@ const Footer = () => {
 }
 
 export default Footer
-                    // <div className="boton-wsp">
-                    //     <a href="https://wa.me/send?text=¡Hola!, que producto desea adquirir?&phone=541122431910"> WhatsApp </a>
-                    // </div>

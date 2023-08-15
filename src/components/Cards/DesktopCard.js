@@ -32,7 +32,6 @@ const Cards = () => {
                             >
                                 <div id="card-body-div" className="card-body-div">
                                     <p className="card-body-div-p"> Comprar </p>
-                                    {/* <a target="_blank" className="card-body-div-p" href={`https://wa.me/send?text=${encodeURIComponent(item.mensajeWhatsApp)}&phone=541122431910`} > Comprar </a> */}
                                 </div>
                             </a>
                         </div>
@@ -49,9 +48,3 @@ const Cards = () => {
 };
 
 export default Cards;
-                            // <div className="card-body-div-div">
-                            //     <div id="card-body-div" className="card-body-div">
-                            //         {/* <p className="card-body-div-p"> Comprar </p> */}
-                            //         <a target="_blank" className="card-body-div-p" href={`https://wa.me/send?text=${encodeURIComponent(item.mensajeWhatsApp)}&phone=541122431910`} > Comprar </a>
-                            //     </div>
-                            // </div>
