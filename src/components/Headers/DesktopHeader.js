@@ -25,10 +25,10 @@ const Header = () => {
                     </div>
                     <div className="header-contenedor-icons">
 
-                        <a href="http://instagram.com" target="_blank" rel="noopener noreferrer" className="header-reactIcon">
+                        <a href="http://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="header-reactIcon">
                             <Instagram />
                         </a>
-                        <a href="http://facebook.com" target="_blank" rel="noopener noreferrer" className="header-reactIcon-dos">
+                        <a href="http://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="header-reactIcon-dos">
                             <Facebook />
                         </a>
                     </div>

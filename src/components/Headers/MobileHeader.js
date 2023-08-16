@@ -22,10 +22,10 @@ const MobileHeader = () => {
                     </nav>
                 </div>
                 <div className="mobile-header-icons">
-                    <a href="http://instagram.com" target="_blank" rel="noopener noreferrer" className="mobile-icons-header">
+                    <a href="http://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="mobile-icons-header">
                         <Instagram />
                     </a>
-                    <a href="http://facebook.com" target="_blank" rel="noopener noreferrer" className="mobile-icons-header-dos">
+                    <a href="http://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="mobile-icons-header-dos">
                         <Facebook />
                     </a>
                 </div>

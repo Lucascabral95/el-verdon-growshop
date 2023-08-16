@@ -19,8 +19,7 @@ const Footer = () => {
                         title="Contactate con un vendedor."
                         href="https://wa.me/send?text=%C2%A1Hola!,%20que%20producto%20desea%20adquirir?&phone=543515445372"
                         className="boton-wsp"
-                    >
-                        <a> WhatsApp </a>
+                    > WhatsApp 
                     </a>
                     <div className="img-logo-footer">
                         <img src="/img/verdon-logo-verde.webp" alt="Logo Del Verdón Growshop" />

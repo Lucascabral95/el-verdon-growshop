@@ -41,14 +41,11 @@
         margin: auto;
         margin-top: 12%;
         transition: background-color 0.4s ease;
-
-        a {
-          font-size: 32px;
-          font-family: 'Yaldevi', sans-serif;
-          font-weight: 500;
-          text-decoration: none;
-          color: white;
-        }
+        font-size: 32px;
+        font-family: 'Yaldevi', sans-serif;
+        font-weight: 500;
+        text-decoration: none;
+        color: white;
 
         &:hover {
           background-color: #094524;
