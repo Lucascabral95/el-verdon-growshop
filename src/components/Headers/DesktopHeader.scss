@@ -48,7 +48,12 @@
 
             a {
               text-decoration: none;
-              color: white;
+              color: #DEE9DA;
+              transition: color 0.4s ease;
+
+              &:hover {
+                color: #fff;
+              }
             }
           }
 
@@ -67,16 +72,24 @@
 
       .header-reactIcon {
         position: relative;
-        right: 33%;
+        right: 45%;
         width: 55%;
-        height: 55%;
+        height: 50%;
         cursor: pointer;
       }
 
       .header-reactIcon-dos {
         width: 43%;
-        height: 43%;
+        height: 50%;
         cursor: pointer;
+      }
+
+      a svg{
+        fill: #DEE9DA;
+        transition: fill 0.4s ease;
+      }
+      a svg:hover { 
+        fill: #fff;
       }
     }
   }

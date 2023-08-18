@@ -6,7 +6,7 @@ import datos from "../../datos.json";
 const Cards = () => {
 
     return (
-        <section className="section-productos">
+        <section id="productos" className="section-productos">
             <h2 className="productos-title">Nuestros productos</h2>
 
             <div className="card-contenedor row">
@@ -26,13 +26,12 @@ const Cards = () => {
                                 <h4 className="card-body-title-dos"> {item.titleTwin} </h4>
                             </div>
                             <a
-                                target="_blank"
+                                target="_blank" rel="noreferrer"
                                 href={`https://wa.me/send?text=${encodeURIComponent(item.mensajeWhatsApp)}&phone=541122431910`}
                                 className="card-body-div-div"
                             >
                                 <div id="card-body-div" className="card-body-div">
                                     <p className="card-body-div-p"> Comprar </p>
-                                    {/* <a target="_blank" className="card-body-div-p" href={`https://wa.me/send?text=${encodeURIComponent(item.mensajeWhatsApp)}&phone=541122431910`} > Comprar </a> */}
                                 </div>
                             </a>
                         </div>
@@ -49,9 +48,3 @@ const Cards = () => {
 };
 
 export default Cards;
-                            // <div className="card-body-div-div">
-                            //     <div id="card-body-div" className="card-body-div">
-                            //         {/* <p className="card-body-div-p"> Comprar </p> */}
-                            //         <a target="_blank" className="card-body-div-p" href={`https://wa.me/send?text=${encodeURIComponent(item.mensajeWhatsApp)}&phone=541122431910`} > Comprar </a>
-                            //     </div>
-                            // </div>

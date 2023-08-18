@@ -4,7 +4,7 @@ import datos from "../../datos.json"
 const CardSecondary = () => {
 
     return (
-        <section className="card-secondary container">
+        <section id="productos" className="card-secondary container">
 
             <h2 className="card-secondary-title"> Nuestros productos</h2>
 
@@ -25,13 +25,12 @@ const CardSecondary = () => {
                         </div>
                         <a
                             href={`https://wa.me/send?text=${encodeURIComponent(item.mensajeWhatsApp)}&phone=541122431910`}
-                            target="_blank"
+                            target="_blank" rel="noreferrer"
                             className="card-secondary-map-button-contenedor"
                         >
                             <div className="card-secondary-map-button">
                                 <div>
                                     <p>Comprar</p>
-                                    {/* <a target="_blank" className="card-body-div-p" href={`https://wa.me/send?text=${encodeURIComponent(item.mensajeWhatsApp)}&phone=541122431910`} > Comprar </a> */}
                                 </div>
                             </div>
                         </a>
@@ -45,9 +44,3 @@ const CardSecondary = () => {
 }
 
 export default CardSecondary
-                            // <div className="card-secondary-map-button">
-                            //     <div>
-                            //         {/* <p>Comprar</p> */}
-                            //         <a target="_blank" className="card-body-div-p" href={`https://wa.me/send?text=${encodeURIComponent(item.mensajeWhatsApp)}&phone=541122431910`} > Comprar </a>
-                            //     </div>
-                            // </div>

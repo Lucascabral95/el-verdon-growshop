@@ -60,7 +60,7 @@
         p {
           color: black;
           font-family: "Yaldevi", sans-serif;
-          font-size: 14px;
+          font-size: 13px;
           font-weight: 400;
         }
       }
@@ -91,6 +91,7 @@
               font-size: 14px;
               font-weight: 600;
             }
+
             // a {
             //   position: relative;
             //   top: 1.1px;
@@ -99,63 +100,6 @@
             //   font-size: 14px;
             //   font-weight: 600;
             // }
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (min-width: 319px) and (max-width: 359px) {
-  .card-secondary {
-    .card-secondary-title {
-      font-size: 23px;
-    }
-
-    .card-secondary-contenedor {
-
-      .card-secondary-map {
-        width: 142.4px;
-        height: 222.5px;
-        padding-left: 14.24px;
-        padding-right: 14.24px;
-        margin-bottom: 12.46px;
-
-        .card-secondary-map-titleImg {
-          margin-top: 7.12px;
-
-          span {
-            font-size: 12.46px;
-          }
-
-          .div-img-secondary {
-            img {
-              height: 23.14px;
-            }
-          }
-        }
-
-        .card-secondary-map-description {
-          p {
-            font-size: 12.46px;
-          }
-        }
-
-        .card-secondary-map-button-contenedor {
-          .card-secondary-map-button {
-            div {
-              width: 106.8px;
-              height: 22.25px;
-
-              p {
-                font-size: 12.46px;
-                top: 1.335px;
-              }
-              // a {
-              //   font-size: 12.46px;
-              //   top: 1.335px;
-              // }
-            }
           }
         }
       }

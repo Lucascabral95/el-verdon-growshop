@@ -1,40 +1,33 @@
 import "./MobileHeader.scss"
-import { BsFacebook } from "react-icons/bs"
-import { AiOutlineInstagram } from "react-icons/ai"
+import { Instagram, Facebook } from "../Icons/Icons.js"
 
 
 const MobileHeader = () => {
-
-    const redirectToFacebook = () => {
-        window.open('https://www.facebook.com', '_blank');
-    };
-
-    const redirectToInstagram = () => {
-        window.open('https://www.instagram.com', '_blank');
-    };
 
     return (
         <div className="section-mobile-header">
 
             <div className="img-mobile-header">
-                <img src="/img/verdon-logo-blanco-dos.png" alt="Logo de Verdón Growshop" />
+                <img src="/img/logo.webp" alt="Logo de Verdón Growshop" />
             </div>
             <div className="mobile-header-categorias-icons">
                 <div className="categorias-header-mobile">
                     <nav>
                         <ul>
                             <li>
-                                <a href="#">  PRODUCTOS </a>
-                                <a href="#"> CONTACTANOS </a>
+                                <a href="#productos">  PRODUCTOS </a>
+                                <a href="#contactanos"> CONTACTANOS </a>
                             </li>
                         </ul>
                     </nav>
                 </div>
                 <div className="mobile-header-icons">
-                    {/* <AiOutlineInstagram className="mobile-icons-header" />
-                    <BsFacebook className="mobile-icons-header-dos" /> */}
-                    <AiOutlineInstagram onClick={redirectToInstagram} className="mobile-icons-header" />
-                    <BsFacebook onClick={redirectToFacebook} className="mobile-icons-header-dos" />
+                    <a href="http://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="mobile-icons-header">
+                        <Instagram />
+                    </a>
+                    <a href="http://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="mobile-icons-header-dos">
+                        <Facebook />
+                    </a>
                 </div>
             </div>
 

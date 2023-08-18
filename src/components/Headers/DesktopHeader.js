@@ -1,43 +1,36 @@
 import "./DesktopHeader.scss"
-import { Link } from 'react-router-dom';
-import { BsFacebook } from "react-icons/bs"
-import { AiOutlineInstagram } from "react-icons/ai"
 import MobileHeader from "../Headers/MobileHeader.js"
+import { Instagram, Facebook } from "../Icons/Icons.js"
 
 const Header = () => {
-
-    const redirectToFacebook = () => {
-        window.open('https://www.facebook.com', '_blank');
-    };
-
-    const redirectToInstagram = () => {
-        window.open('https://www.instagram.com', '_blank');
-    };
 
     return (
         <>
             <div className="section-header">
                 <div className="header-contenedor-img">
-                    <img className="header-img" src="/img/verdon-logo-blanco-dos.png" alt="Logo del Verdón Growshop" />
+                    <img className="header-img" src="/img/logo.webp" alt="Logo del Verdón Growshop" />
                 </div>
                 <div className="contenedor-categorias-icons">
                     <div className="header-contenedor-categorias">
                         <nav>
                             <ul>
                                 <li>
-                                    <a href="#"> PRODUCTOS </a>
+                                    <a href="#productos"> PRODUCTOS </a>
                                 </li>
                                 <li>
-                                    <a href="#"> CONTACTANOS </a>
+                                    <a href="#contactanos"> CONTACTANOS </a>
                                 </li>
                             </ul>
                         </nav>
                     </div>
                     <div className="header-contenedor-icons">
-                        {/* <AiOutlineInstagram color="white" className="header-reactIcon" /> */}
-                        {/* <BsFacebook color="white" className="header-reactIcon-dos" /> */}
-                        <AiOutlineInstagram onClick={redirectToInstagram} color="white" className="header-reactIcon" />
-                        <BsFacebook onClick={redirectToFacebook} color="white" className="header-reactIcon-dos" />
+
+                        <a href="http://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="header-reactIcon">
+                            <Instagram />
+                        </a>
+                        <a href="http://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="header-reactIcon-dos">
+                            <Facebook />
+                        </a>
                     </div>
                 </div>
             </div>
