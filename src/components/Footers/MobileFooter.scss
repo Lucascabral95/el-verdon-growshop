@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: 24% 52% 24%;
 
-    .img-mobile-footer{
+    .img-mobile-footer {
         img {
             width: 100%;
             height: 214px;
@@ -15,8 +15,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        // margin: auto;
-        margin-top: 1%;
+        margin-top: 2%;
 
         img {
             width: 98px;
@@ -32,8 +31,8 @@
     }
 
     .mobile-footer-texto-boton-logo {
-        margin-top: 18%;
-        
+        margin-top: 20%;
+
         .mobile-footer-text {
             p {
                 padding-top: -4px;
