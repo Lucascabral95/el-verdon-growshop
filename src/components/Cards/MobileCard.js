@@ -24,7 +24,7 @@ const CardSecondary = () => {
                             <p> {item.description} </p>
                         </div>
                         <a
-                            href={`https://wa.me/send?text=${encodeURIComponent(item.mensajeWhatsApp)}&phone=541122431910`}
+                            href={`https://api.whatsapp.com/send?phone=543515213682&text=${encodeURIComponent(item.mensajeWhatsApp)}`}
                             target="_blank" rel="noreferrer"
                             className="card-secondary-map-button-contenedor"
                         >

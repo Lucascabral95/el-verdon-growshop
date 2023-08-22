@@ -16,7 +16,9 @@ const MobileFooter = () => {
                     <p>¡Comunicate con un vendedor!</p>
                 </div>
                 <div className="boton-wsp-mobile">
-                    <a href="https://wa.me/send?text=%C2%A1Hola!,%20que%20producto%20desea%20adquirir?&phone=543515445372">WhatsApp</a>
+                    <a 
+                    target="_blank" rel="noopener noreferrer"
+                    href="https://api.whatsapp.com/send?phone=543515445372&text=¡Hola!%20Quiero%20información%20sobre...">WhatsApp</a>
                 </div>
                 <div className="mobile-footer-img-tres">
                     <img src="/img/verdon-logo-verde.webp" alt="Logo del Verdón Growshop" />

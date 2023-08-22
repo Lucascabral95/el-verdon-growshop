@@ -27,7 +27,7 @@ const Cards = () => {
                             </div>
                             <a
                                 target="_blank" rel="noreferrer"
-                                href={`https://wa.me/send?text=${encodeURIComponent(item.mensajeWhatsApp)}&phone=541122431910`}
+                                href={`https://wa.me/send?text=${encodeURIComponent(item.mensajeWhatsApp)}&phone=543515213682`}
                                 className="card-body-div-div"
                             >
                                 <div id="card-body-div" className="card-body-div">
