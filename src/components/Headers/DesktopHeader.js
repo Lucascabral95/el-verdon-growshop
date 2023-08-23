@@ -28,7 +28,7 @@ const Header = () => {
                         <a href="https://www.instagram.com/elverdongrow" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="header-reactIcon">
                             <Instagram />
                         </a>
-                        <a href="http://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="header-reactIcon-dos">
+                        <a href="https://www.facebook.com/elverdongrowshop" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="header-reactIcon-dos">
                             <Facebook />
                         </a>
                     </div>
