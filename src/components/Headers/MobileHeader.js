@@ -25,9 +25,6 @@ const MobileHeader = () => {
                     <a href="https://www.instagram.com/elverdongrow" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="mobile-icons-header">
                         <Instagram />
                     </a>
-                    {/* <a href="https://m.facebook.com/profile.php/?id=100093686060585&name=xhp_nt__fb__action__open_user" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="mobile-icons-header-dos">
-                        <Facebook />
-                    </a> */}
                     <a href="https://www.facebook.com/elverdongrowshop" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="mobile-icons-header-dos">
                         <Facebook />
                     </a>

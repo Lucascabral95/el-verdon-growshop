@@ -17,7 +17,8 @@ const Footer = () => {
                         target="_blank"
                         rel="noreferrer"
                         title="Contactate con un vendedor."
-                        href="https://wa.me/send?text=¡Hola! Quiero informacion sobre...&phone=543515445372"
+                        // href="https://wa.me/send?text=¡Hola! Quiero informacion sobre...&phone=543515445372"
+                        href="https://api.whatsapp.com/send?phone=543515445372&text=¡Hola!%20Quiero%20información%20sobre..."
                         className="boton-wsp"
                     > WhatsApp
                     </a>
