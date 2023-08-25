@@ -3,6 +3,12 @@ import { Instagram, Facebook } from "../Icons/Icons.js"
 
 
 const MobileHeader = () => {
+    const scrollToBottom = () => {
+        window.scrollTo({
+            top: document.body.scrollHeight,
+            behavior: 'smooth',
+        });
+    };
 
     return (
         <div className="section-mobile-header">
@@ -16,7 +22,7 @@ const MobileHeader = () => {
                         <ul>
                             <li>
                                 <a href="#productos">  PRODUCTOS </a>
-                                <a href="#contactanos"> CONTACTANOS </a>
+                                <a href="#contactanos" onClick={scrollToBottom}> CONTACTANOS </a>
                             </li>
                         </ul>
                     </nav>

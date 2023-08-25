@@ -10,10 +10,10 @@ const MobileFooter = () => {
                 <img src="/img/verdon-hojita-uno.webp" alt="Hojita" />
             </div>
 
-            <div className="mobile-footer-texto-boton-logo">
-                <div id="contactanos" className="mobile-footer-text">
-                    <p>¿Necesitás más información?</p>
-                    <p>¡Comunicate con un vendedor!</p>
+            <div id="contactanos"  className="mobile-footer-texto-boton-logo">
+                <div className="mobile-footer-text">
+                    <p id="contactanos" >¿Necesitás más información?</p>
+                    <p id="contactanos" >¡Comunicate con un vendedor!</p>
                 </div>
                 <div className="boton-wsp-mobile">
                     <a 
